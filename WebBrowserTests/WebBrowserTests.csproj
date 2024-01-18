@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.4</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NUnit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\WebBrowser.Data\WebBrowser.Data.csproj" />
+    <ProjectReference Include="..\WebBrowser.Logic\WebBrowser.Logic.csproj" />
+    <ProjectReference Include="..\WebBrowser.UI\WebBrowser.UI.csproj" />
+  </ItemGroup>
+
+</Project>
